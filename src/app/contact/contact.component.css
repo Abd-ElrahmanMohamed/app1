@@ -1,0 +1,50 @@
+body{
+    overflow-x:hidden;
+}
+
+.header-caption h2{
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.header-caption {
+    margin-top: 100px;
+}
+
+.line{
+    height: 5px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.line2{
+    height: 5px;
+    width: 100px;
+    margin-right: 50px;
+}
+
+.contact-caption p{
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.bg-teal{
+    background-color: #1ABC9C;
+  }
+
+form input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #E6E9EC;
+}

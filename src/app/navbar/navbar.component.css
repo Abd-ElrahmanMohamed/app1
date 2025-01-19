@@ -1,0 +1,24 @@
+.navbar{
+    background-color: #2C3E50;
+}
+
+.navbar-brand{
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.nav-item a{
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.bg-teal{
+  background-color: #1ABC9C;
+}

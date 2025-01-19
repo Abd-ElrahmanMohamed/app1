@@ -1,0 +1,37 @@
+body{
+    overflow-x:hidden;
+}
+
+header{
+    background-color: #1ABC9C;
+    height: 98vh;
+}
+
+.header-caption h2{
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.line{
+    height: 5px;
+    width: 100px;
+    margin-left: 60px;
+}
+
+.line2{
+    height: 5px;
+    width: 100px;
+    margin-right: 60px;
+}
+
+.home-caption p{
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+

@@ -1,0 +1,73 @@
+body{
+    overflow-x:hidden;
+}
+
+.portfolio-caption h2{
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.portfolio-caption {
+    margin-top: 100px;
+}
+
+.line{
+    height: 5px;
+    width: 100px;
+    margin-left: 110px;
+}
+
+.line2{
+    height: 5px;
+    width: 100px;
+    margin-right: 110px;
+}
+
+.contact-caption p{
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: left;
+}
+
+img{
+    border-radius: 7px;
+}
+
+.gallery-img{
+    width: fit-content;
+    margin-bottom: 1.25rem;
+    border: 4px solid white;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.gallery-img img{
+    width: 100%;
+    transition: 400ms;
+}
+
+.gallery-img .layer {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 100%;
+bottom: 0%;
+right: 0%;
+left: 0%;
+background-color: rgba(41, 177, 151 , 0.9);
+transition: all 0.5s;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.gallery-img:hover .layer{
+    top: 0%;
+}
